@@ -1,0 +1,52 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td ,textarea,input { margin:0; padding:0;  }
+address,cite,dfn,em,var, i {font-style:normal;}
+body {font-size: 16px; line-height: 1.5; font-family:'Microsoft Yahei','simsun','arial','tahoma';  color: #222; background: #eee; }
+table { border-collapse:collapse; border-spacing:0; }
+h1, h2, h3, h4, h5, h6, th { font-size: 100%; font-weight: normal; }
+button,input,select,textarea{font-size:100%;}
+fieldset,img{border:0;}
+a { text-decoration: none; color: #666; background: none }
+ul, ol { list-style: none; }
+:focus{ outline:none;}
+.clearfix{ clear: both; content: ""; display: block; overflow: hidden }
+.clear{clear: both;}
+.fl{ float: left; }
+.fr{float: right;}
+footer {
+  width: 100%;
+  height: 62px;
+  line-height: 62px;
+  position: absolute;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  align-items: center;
+  background: #fff;
+  text-align: center;
+  z-index: 98;
+}
+.detailAdr {
+  padding: 16px;
+  background: #fff;
+  margin-top: 12px;
+  font-style: normal;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  font-size: 16px;
+}
+.detailAdr span {
+  color: rgba(143, 149, 161, 1);
+  display: block;
+  width: 64px;
+  height: 20px;
+  line-height: 20px;
+}
+.detailAdr div {
+  width: 343px;
+  height: 18px;
+  color: rgba(51, 51, 51, 1);
+  line-height: 18px;
+  margin-top: 5px;
+}
