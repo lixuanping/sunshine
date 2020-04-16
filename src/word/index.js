@@ -1,8 +1,8 @@
 import englishWord from './englishWord.js'
 import chineseWord from './chineseWord.js'
-import random from './random.js'
+import theOther from './theOther.js'
 export default [
   englishWord,
   chineseWord,
-  random
+  theOther
 ]

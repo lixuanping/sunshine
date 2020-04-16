@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="box">
+    <div class="box" ref='Box'>
       <ul :class="{'box--transition': transition}" :style="{'left': positionLeft + 'px'}"
       @touchstart="start" @touchmove='move' @touchend='end' ref='box' class="box_header">
         <li ref='li' class="header_title" v-for='(item,index) in data' :key='index'
         :class="{'header_title--bottom': idx == index}" @click="toggle(index)">
-          {{item.BLDNAME}}
+          {{item}}
         </li>
       </ul> 
     </div>
@@ -109,6 +109,21 @@ export default {
       }
     },
     toggle(index) {
+      let space = (Array.from(this.$refs.box.children)[index]).getBoundingClientRect().left;
+      let boxWidth = this.$refs.Box.offsetWidth;
+      if (space > boxWidth - 50 && index !== this.data.length - 1) {
+        this.transition = true;
+        this.positionLeft -= boxWidth / 2;
+        if (this.positionLeft < -this.$refs.box.offsetWidth + boxWidth) {
+          this.positionLeft = -this.$refs.box.offsetWidth + boxWidth ;
+        }
+      } else if (space < 50 && index !== 0) {
+        this.transition = true;
+        this.positionLeft += boxWidth / 2;
+        if (this.positionLeft > 0) {
+          this.positionLeft = 0;
+        }
+      }
       this.idx = index;
       this.$emit('input', this.idx);
     },
