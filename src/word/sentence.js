@@ -1,4 +1,26 @@
 export default [
-  'Where can I check in?'
+  'Where can I check in?',
+  'be late for school',
+  'take part in',
+  'take care of yourself',
+  'I missed the train',
+  'stay at home',
+  'cook a big dinner',
+  'two weeks ago',
+  'come back home',
+  'write a latter',
+  'look like',
+  'look the same',
+  'the bus stop',
+  'on a farm',
+  'on earth(究竟，到底，地球上)',
+  'Where did i lose',
+  'on the earth',
+  'at the back of(在...的后面)',
+  'in a few days',
+  'I will make it okay',
+  'What time is it',
+  'eating food',
+  'taking a shower'
 ]
   

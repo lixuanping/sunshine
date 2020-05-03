@@ -5,14 +5,14 @@ export default ()=> {
   let child = new LoadingComponent({ // 动态创建挂载点
     el:document.createElement("div"),
     data:{
-      flag:false,
+      flag: false,
     },
     methods:{
-      handlemount(){
-        this.flag=true;
+      handlemount() {
+        this.flag = true;
       },
-      handleDestory(){
-        this.flag=false;
+      handleDestory() {
+        this.flag = false;
       }
     }
   })

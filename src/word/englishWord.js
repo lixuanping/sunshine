@@ -14,5 +14,5 @@ export default ['animal','pig','dog','cat','wing','hippopotamus','goat','deer','
 'the-verbs','work','walk','run','drive','fly','swin','follow','think','speak','say','kill','die','smile','laugh','cry','play','mell','learn','jump','smell','hear-voice-sound','listen','taste','touch','burn','melt','dig','explode','sit','stand','pass-bay','cut','fight','lie-down','dance','sleep',
 'wake-up','sing','count','marry','pray','win','lose','mix/stir','bend','wash','cook','write','call','build','teach','grow','draw','feed','catch','throw','clean','find','fall','push','pull','carry','break','wear','hang','shake','sign','beat','lift',
 'adjective','tall','short','narrow','big','small/little','slow','fast','hot','cold','warm','cool','old','young','bad','wet','dry','sick','healthy','loud','queit','happy','sad','beautiful','ugly','deaf-mute','blind','nice','mean','rich','poor','thick','thin','expensive','cheap','flat',
-'curved','male','female','Tight','Loose','height','low','Soft','Hard','Deep','Shallow','Clean','Dirty','Strong','Weak','Dead','Alive','Heavy','Light','Dark','Nuclear','Famous'
+'curved','male','female','Tight','Loose','height','low','Soft','Hard','Deep','Shallow','Clean','Dirty','Strong','Weak','Dead','Alive','Heavy','Light','Dark','Nuclear','Famous','lack','quickly'
 ]
