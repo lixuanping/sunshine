@@ -1,4 +1,4 @@
-export default [
+export default [ 
   'Where can I check in?',
   'be late for school',
   'take part in',
