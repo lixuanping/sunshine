@@ -1,6 +1,6 @@
-import englishWord from './englishWord.js'
-import chineseWord from './chineseWord.js'
-import theOther from './theOther.js'
+import englishWord from './before/englishWord.js'
+import chineseWord from './before/chineseWord.js'
+import theOther from './before/theOther.js'
 export default [
   englishWord,
   chineseWord,

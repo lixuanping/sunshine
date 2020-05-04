@@ -21,6 +21,10 @@ export default [
   'I will make it okay',
   'What time is it',
   'eating food',
-  'taking a shower'
+  'taking a shower',
+  'think of',
+  'close to',
+  'next to',
+  'near'
 ]
   

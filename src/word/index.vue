@@ -24,6 +24,7 @@
     </van-button>
     <van-button  round type="info" class="button" @click="translate">
       翻译
+      associ
     </van-button>
     <van-button class="button" round type="info" @click="next">
       下一个
@@ -133,8 +134,8 @@ export default {
 
 
 
-
-
+    // 评估vt 资产n 分配vt 分配,指派n 吸收消化vt 协助,帮助vt 帮助n (帮助a-助手n) (联想,交往vt-伙伴n-联合的a) 联盟,协会
+    // assess asset assign assignment assimilate assist assistance assistant associate association
 
 
     // this.md5 = require('js-md5');
