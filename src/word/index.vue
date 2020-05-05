@@ -136,8 +136,8 @@ export default {
 
     // 评估vt 资产n 分配vt 分配,指派n 吸收消化vt 协助,帮助vt 帮助n (帮助a-助手n) (联想,交往vt-伙伴n-联合的a) 联盟,协会
     // assess asset assign assignment assimilate assist assistance assistant associate association
-
-
+    // 假装,假定vt 假定,设想n 使确定,使放心vt 保证,放心n 使惊讶,使吃惊vt 宇航员n 天文学n 运动员n 大气层,大气压n 原子n
+    // assume assumption assure assurance astonish astronaut astronomy athlete atmosphere atom
     // this.md5 = require('js-md5');
     this.word.forEach(() => {
       this.indexList.push(0);
